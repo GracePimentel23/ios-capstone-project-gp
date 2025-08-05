@@ -12,16 +12,24 @@
 
 ### Idea 1: An Image A Day Journal
 **Mobile:** Uses camera for daily photo entries
+
 **Story:** Creates a personal digital scrapbook of daily highlights
+
 **Market:** Appeals to students, young adults, and anyone who wants to remember their days visually
+
 **Habit:** Encourages daily use through streaks and memory tracking
+
 **Scope:** Includes calendar view, photo uploads, and gallery
 
 ### Idea 2: Recipe Finder
 **Mobile:** Uses camera to capture meal photos
+
 **Story:** Helps users save and organize recipes easily
+
 **Market:** Targets home cooks and students seeking convenience
+
 **Habit:** Likely used a few times per week for meal planning
+
 **Scope:** Includes photo uploads and recipe entry fields
 
 
