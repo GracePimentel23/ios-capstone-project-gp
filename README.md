@@ -101,6 +101,11 @@ An app that allows users to capture and save one highlight photo each day, creat
 
 [This section will be completed in Unit 9]
 
+1: Activity 1 - Brainstorm
+2: Activity 2 - Wireframe
+3: Setting up the Xcode with tab bar
+4: Making it functional
+
 ### Models
 
 **Photo**
