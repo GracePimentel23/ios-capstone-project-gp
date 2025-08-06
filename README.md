@@ -86,7 +86,7 @@ An app that allows users to capture and save one highlight photo each day, creat
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="wireframe.jpg" width=600>
+<img src="wireframe.JPG" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
