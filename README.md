@@ -60,6 +60,9 @@ An app that allows users to capture and save one highlight photo each day, creat
 - **Gallery Screen**
   * Scroll through all saved photos in a feed/grid
   * Tap photo for details
+- **Photo Detail Screen**
+  * View a larger version of a photo
+  * See optional caption or tags
 - **Profile/Settings Screen**
   * Adjust notifications, streaks, and app settings
 
@@ -80,6 +83,8 @@ An app that allows users to capture and save one highlight photo each day, creat
   * → Tap a Date → Photo Detail
 - **Gallery Screen**
   * → Tap Photo → Photo Detail
+- **Photo Detail Screen**
+  * → Back to Calendar or Gallery
 - **Profile Screen**
   * → Edit Settings → Save → Profile
 
