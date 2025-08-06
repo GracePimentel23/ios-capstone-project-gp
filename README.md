@@ -2,7 +2,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# An Image A Day
 
 ## Table of Contents
 
@@ -14,18 +14,23 @@ Original App Design Project - README Template
 ## Overview
 
 ### Description
-
-[Description of your app]
+An app that allows users to capture and save one highlight photo each day, creating a personal digital scrapbook and encouraging daily reflection.
 
 ### App Evaluation
 
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Lifestyle / Journaling
+
+- **Mobile:** Uses the camera, push notifications, and calendar view for a uniquely mobile experience
+
+- **Story:** Encourages mindfulness by capturing a meaningful moment every day
+
+- **Market:** Appeals to students, young adults, and anyone interested in photo journaling or memory keeping
+
+- **Habit:** Highly habit-forming through daily check-ins and streak tracking
+
+- **Scope:** includes a calendar, photo uploads, and gallery; optional features like captions, tags, or exporting albums can be added later
+
 
 ## Product Spec
 
@@ -33,39 +38,50 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can take or upload one photo per day
+* User can view their photos in a calendar format
+* User can set daily reminders/notifications
+* User can browse their gallery of past photos
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can add captions or tags to photos
+* User can export or share their scrapbook
+* User can track streaks
+* User can search/filter photos by tags or mood
 
 ### 2. Screen Archetypes
-
-- [ ] [list first screen here]
-* [list associated required story here]
-* ...
-list second screen here]
-* [list associated required story here]
-* ...
+- **Home Screen**
+  * Add or upload today’s photo
+  * View reminder for daily entry
+- **Calendar Screen**
+  * See daily photo entries in a calendar layout
+  * Tap a date to view that day’s photo
+- **Gallery Screen**
+  * Scroll through all saved photos in a feed/grid
+  * Tap photo for details
+- **Profile/Settings Screen**
+  * Adjust notifications, streaks, and app settings
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home
+* Calendar
+* Gallery
+* Profile
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- **Home Screen**
+  * → Add Photo (Camera or Upload) → Save → Home
+- **Calendar Screen**
+  * → Tap a Date → Photo Detail
+- **Gallery Screen**
+  * → Tap Photo → Photo Detail
+- **Profile Screen**
+  * → Edit Settings → Save → Profile
 
 ## Wireframes
 
@@ -82,10 +98,29 @@ list second screen here]
 
 ### Models
 
-[Add table of models]
+**Photo**
+- photoID: String  
+  Unique ID for the photo  
+- date: Date  
+  The date the photo was added  
+- imageURL: File  
+  The stored image file  
+- caption: String (Optional)  
+  User written caption for the photo  
+- tags: Array (Optional)  
+  Tags to help filter/search photos  
 
 ### Networking
 
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+- - **Home Screen**
+  * (Create/POST) Upload daily photo
+- **Calendar Screen**
+  * (Read/GET) Fetch all photo entries by date
+- **Gallery Screen**
+  * (Read/GET) Fetch photo list
+- **Profile Screen**
+  * (Update/PUT) Update user settings (notifications, streaks)
