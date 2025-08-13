@@ -16,6 +16,30 @@ Original App Design Project - README Template
 ### Description
 An app that allows users to capture and save one highlight photo each day, creating a personal digital scrapbook and encouraging daily reflection.
 
+## Video Walkthrough
+
+[Watch Video Walkthrough on Loom](https://www.loom.com/share/fac7622a99c94c4caaf862961bb72266?sid=11a43550-d3bb-4c00-b27c-52fa22c2b8e9)
+
+## Development Checklist
+
+- [x] Create project scaffold in Xcode  
+- [x] Remove storyboard and set up programmatic UI  
+- [x] Add privacy keys for camera and photo library to Info.plist  
+- [x] Implement Home screen with date label, image preview, and add/replace photo button  
+- [x] Integrate PHPicker for photo library selection  
+- [x] Integrate UIImagePickerController for camera capture  
+- [x] Implement Store.swift for saving/loading today’s image  
+- [x] Persist today’s image to disk  
+- [x] Load saved image on app launch  
+- [ ] Implement Gallery screen with grid of past photos  
+- [ ] Implement Calendar screen with daily photo thumbnails  
+- [ ] Implement Photo Detail screen with caption/tags support  
+- [ ] Implement Profile/Settings screen with reminder toggle and time picker  
+- [ ] Add local notification scheduling for daily reminder  
+- [ ] Add streak tracking logic  
+- [ ] Polish UI and empty states  
+- [ ] Test on simulator and physical device  
+
 ### App Evaluation
 
 [Evaluation of your app across the following attributes]
